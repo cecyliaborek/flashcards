@@ -1,0 +1,9 @@
+version: '3.9'
+service:
+    db:
+        image: 'postgres:latest'
+        container_name: flashcards_db
+        ports:
+            - "5432:5432"
+        volumes: 
+            - flashcards_data:/var/lib/postgresql/data

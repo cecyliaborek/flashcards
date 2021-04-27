@@ -1,0 +1,16 @@
+body,html{
+    height:100%;
+}
+.flashcard {
+    height: 47%;
+    width: 50%;
+    background-color: #33b5e5;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: xxx-large;
+}
